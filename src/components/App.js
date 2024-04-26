@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
+        {isLoggedIn? <h1>You are Logged in!</h1>:<Login setIsLoggedIn={setIsLoggedIn} />}
     </div>
   )
 }
