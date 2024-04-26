@@ -9,7 +9,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <h1>Parent Component</h1>
-        {isLoggedIn? <p>You are Logged in!</p>:<Login setIsLoggedIn={setIsLoggedIn} />}
+        {isLoggedIn? <p>You are logged in!</p>:<Login setIsLoggedIn={setIsLoggedIn} />}
     </div>
   )
 }
