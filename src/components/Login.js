@@ -9,7 +9,7 @@ const Login = ({ setIsLoggedIn }) => {
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <label htmlFor="password">Password</label>
-          <input type="text" id="password" />
+          <input type="password" id="password" />
         </div>
         <button onClick={() => setIsLoggedIn(true)}>Login</button>
     </div>
